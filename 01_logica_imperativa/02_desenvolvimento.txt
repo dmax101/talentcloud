@@ -1,0 +1,11 @@
+Aluno: Danilo Vidal Ribeiro
+
+A regra de distribuição das linhas e colunas de quando o professor deixou a sala de aula era de dois ou quatro alunos que preferem cada disciplina.
+
+Caso Um: Analisando a quantidade de alunos que preferiam (M) na terceira coluna descobrimos que ali houve uma alteração, visto que existem cinco alunos.
+
+Caso Dois: Da mesma forma podemos concluir da quarta linha que não respeita a regra de distribuição tendo três alunos que preferem (M) e três que preferem (P).
+
+Aplicando a lógica do Caso Um para as outras colunas podemos observar que a coluna cinco também não respeita a regra de distribuição; Para o Caso Dois podemos observar a linha cinco.
+
+Desta forma podemos concluir que na intersessão da coluna três, linha quatro e coluna cinco e linha cinco.
