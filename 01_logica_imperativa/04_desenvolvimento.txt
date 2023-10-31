@@ -1,0 +1,30 @@
+
+#Aluno Danilo Vidal Ribeiro
+
+nome: caractere
+endereco: caractere
+cidade: caractere
+cpf: inteiro
+rg: inteiro
+
+escreva("Informe seu nome: ")
+leia(nome)
+
+escreva("Informe seu endereço: ")
+leia(endereco)
+
+escreva("Informe sua cidade: ")
+leia(cidade)
+
+escreva("Informe seu CPF: ")
+leia(cpf)
+
+escreva("Informe seu RG: ")
+leia(rg)
+
+escreva("Dados informados:")
+escreva("Nome: ", nome)
+escreva("Endereço: ", endereco)
+escreva("Cidade: ", cidade)
+escreva("CPF: ", cpf)
+escreva("RG: ", rg)
