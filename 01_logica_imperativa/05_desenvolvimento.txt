@@ -1,0 +1,25 @@
+Algoritmo AlocaClientesRestaurante
+Var
+   quantidadePessoas: inteiro
+   fumantesOuAnimais: caractere
+   localAlocacao: caractere
+
+Inicio
+   Escreva("Quantas pessoas estão no grupo? ")
+   Leia(quantidadePessoas)
+
+   Se quantidadePessoas >= 5 Então
+      localAlocacao <- "1º andar"
+   Senão
+      Escreva("Os clientes são fumantes ou têm animais de estimação? (S/N): ")
+      Leia(fumantesOuAnimais)
+      
+      Se fumantesOuAnimais = "S" Ou fumantesOuAnimais = "s" Então
+         localAlocacao <- "Área externa"
+      Senão
+         localAlocacao <- "Térreo"
+      FimSe
+   FimSe
+
+   Escreva("Aloque os clientes no(a) ", localAlocacao)
+Fim
