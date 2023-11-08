@@ -1,0 +1,12 @@
+Var
+   nome_equipe: Caractere
+   i: Inteiro
+
+Inicio
+   Escreva("Digite o nome da equipe: ")
+   Leia(nome_equipe)
+
+   Para i de 1 ate 5 faca
+      Escreva(nome_equipe, " - ", i)
+   FimPara
+Fim
