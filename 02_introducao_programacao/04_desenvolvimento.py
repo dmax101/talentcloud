@@ -21,7 +21,10 @@ def calculadora(num1: float, num2: float, op: str):
         try:
             return num1 / num2
         except ZeroDivisionError as e:
-            return f"Erro: {e}"
+            print(f"Erro: {e}")
+            return 0
+    else:
+        return 0
 
 def main():
     """
