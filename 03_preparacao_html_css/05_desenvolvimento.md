@@ -1,7 +1,6 @@
 # Ilustração_01_CodePark01
 
-![Ilustração_01_CodePark01]("images\Ilustração_01_CodePark01.png")
-
+![Alt text](images/Ilustra%C3%A7%C3%A3o_01_CodePark01.png)
 
 1. header
 2. main
