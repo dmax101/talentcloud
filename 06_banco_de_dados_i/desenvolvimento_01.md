@@ -1,0 +1,7 @@
+# MySQL:
+
+O MySQL é um sistema de gerenciamento de banco de dados relacional de código aberto amplamente utilizado na indústria, especialmente em aplicativos da web. Reconhecido por sua confiabilidade e desempenho, o MySQL oferece suporte a uma variedade de plataformas, tornando-o uma escolha popular para uma ampla gama de projetos. Sua linguagem de consulta padrão é o SQL (Structured Query Language), o que facilita a interação com os dados armazenados. Com uma comunidade ativa de usuários e desenvolvedores, o MySQL continua a evoluir, oferecendo recursos avançados e suporte técnico abrangente para atender às demandas do mercado.
+
+# PostgreSQL:
+
+O PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto reconhecido por sua robustez e conformidade com padrões. Amplamente utilizado em ambientes comerciais e de desenvolvimento, o PostgreSQL oferece uma ampla gama de recursos avançados, incluindo extensibilidade e suporte a linguagens de programação como PL/pgSQL e PL/Python. Sua conformidade com os padrões ANSI SQL e SQL:2008 garante a portabilidade e a interoperabilidade dos dados. Com recursos como replicação, particionamento e transações ACID, o PostgreSQL é uma escolha popular para aplicativos que exigem confiabilidade, escalabilidade e integridade dos dados.
