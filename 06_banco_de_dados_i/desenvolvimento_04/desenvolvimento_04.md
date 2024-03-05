@@ -1,4 +1,6 @@
+# Consultas
 
+## Base de dados
 
 | P.NOME     | U.NOME   | MATRICULA | SERIE  | DISCIPLINA | NOTA |
 | ---------- | -------- | --------- | ------ | ---------- | ---- |
@@ -8,6 +10,7 @@
 | Alan       | Vilela   | 3285      | 1º ano | História   | 8,0  |
 | Figueiredo | Santos   | 4598      | 2º ano | Geografia  | 9,0  |
 
+## Base para Relax
 
 ```python
 ALUNO = {
@@ -19,51 +22,52 @@ ALUNO = {
     'Figueiredo', 'Santos', 4598, '2º ano', 'Geografia', 9.0
 }
 ```
+## Respostas
 
 - Mostrar as informações apenas dos alunos aprovados (nota acima de 7,0):
 
 $$
-σ_{Nota > 7,0}(ALUNO)
+σ_{NOTA > 7,0}(ALUNO)
 $$
 
 - Exibir as informações dos alunos do primeiro ano com nota maior ou igual a 8,0:
 
 $$
-σ_{Nota \geq 8,0 \land PNome = 'Primeiro'}(ALUNO)
+σ_{NOTA \geq 8,0 \land SERIE = '1º ano'}(ALUNO)
 $$
 
 - Exibir apenas os nomes e as notas dos alunos:
 
 $$
-π_{PNome, UNome, Nota}(ALUNO)
+π_{PNOME, UNOME, NOTA}(ALUNO)
 $$
 
 - Criar uma tabela PROFESSOR que apresente apenas o primeiro e o último nome do professor:
 
 $$
-π_{PNome, UNome}(PROFESSOR)
+π_{PNOME, UNOME}(PROFESSOR)
 $$
 
 - Criar uma tabela ALUNO com o primeiro e o último nome de cada:
 
 $$
-π_{PNome, UNome}(ALUNO)
+π_{PNOME, UNOME}(ALUNO)
 $$
 
-- Mostrar o resultado da união entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR:
+- Mostrar o resultado da união entre a tabela ALUNO(PNOME, UNOME) e a tabela PROFESSOR:
 
 $$
-π_{PNome, UNome}(ALUNO) ∪ π_{PNome, UNome}(PROFESSOR)
+π_{PNOME, UNOME}(ALUNO) ∪ π_{PNOME, UNOME}(PROFESSOR)
 $$
 
-- Exibir o resultado da intersecção entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR:
+- Exibir o resultado da intersecção entre a tabela ALUNO(PNOME, UNOME) e a tabela PROFESSOR:
 
 $$
-π_{PNome, UNome}(ALUNO) ∩ π_{PNome, UNome}(PROFESSOR)
+π_{PNOME, UNOME}(ALUNO) ∩ π_{PNOME, UNOME}(PROFESSOR)
 $$
 
-- Exibir o resultado da diferença entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR:
+- Exibir o resultado da diferença entre a tabela ALUNO(PNOME, UNOME) e a tabela PROFESSOR:
 
 $$
-π_{PNome, UNome}(ALUNO) ~= π_{PNome, UNome}(PROFESSOR)
+π_{PNOME, UNOME}(ALUNO) ≠ π_{PNOME, UNOME}(PROFESSOR)
 $$
