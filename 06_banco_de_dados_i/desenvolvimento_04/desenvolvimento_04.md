@@ -30,7 +30,6 @@ $$
 
 $$
 σ_{Nota \geq 8,0 \land PNome = 'Primeiro'}(ALUNO)
-
 $$
 
 - Exibir apenas os nomes e as notas dos alunos:
